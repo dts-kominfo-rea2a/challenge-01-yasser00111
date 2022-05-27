@@ -27,7 +27,7 @@ const firstUser = {
         kuliah: {
             nama: "Stmik Handayani",
             jurusan: "RPL",
-            kota: "Barru",
+            kota: "Makassar",
             lulus: 2021,
         },
     },
@@ -63,7 +63,7 @@ const secondUser = {
         kuliah: {
             nama: "Stmik akba",
             jurusan: "RPL",
-            kota: "Barru",
+            kota: "makassar",
             lulus: 2021,
         },
     },
