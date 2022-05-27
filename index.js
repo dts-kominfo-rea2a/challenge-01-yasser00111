@@ -3,11 +3,12 @@
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
     nama: "yasser",
-    jenkel: "laki-laki",
-    umur: 27,
+    gender: "laki-laki",
+    age: 27,
     email: "yassertkj@gmail.com",
-    hoby: ["makan", "todur", "ngoding"],
-    pendidikan: {
+    favoriteColor: ["Black", "White", "Blue"],
+    isHavepet: true,
+    education: {
         sd: {
             nama: "SD inpres Rumpiah",
             kota: "barru",
@@ -31,48 +32,42 @@ const firstUser = {
             lulus: 2021,
         },
     },
-    favoriteColor: [
-        "Black",
-        "White",
-        "Blue"
-    ],
+    favoriteRestaurant: ["KFC", "burgerking", "mc donald"],
+
+
 };
 const secondUser = {
-    nama: "Mika",
-    jenkel: "laki-laki",
-    umur: 26,
-    email: "mulham591@gmail.com",
-    hoby: ["makan", "todur", "ngoding"],
-    pendidikan: {
+    nama: "muhammad",
+    gender: "male",
+    age: 27,
+    email: "muhammad@gmail.com",
+    favoriteColor: ["Black", "White", "Blue"],
+    isHavepet: true,
+    education: {
         sd: {
-            nama: "SD 1 maros",
-            kota: "maros",
+            nama: "SD inpres Barru",
+            kota: "barru",
             lulus: 2008,
         },
         smp: {
-            nama: "SMP 2 papua",
-            kota: "papua",
+            nama: "Mts DDI Takkalasi",
+            kota: "Barru",
             lulus: 2011,
         },
-        sma: {
-            nama: "SMa 10 Maros",
-            jurusan: "IPS",
-            kota: "maros",
+        smk: {
+            nama: "SMK 1",
+            jurusan: "TKJ",
+            kota: "Barru",
             lulus: 2014,
         },
         kuliah: {
-            nama: "Stmik akba",
+            nama: "Stmik Handayani",
             jurusan: "RPL",
-            kota: "makassar",
+            kota: "Makassar",
             lulus: 2021,
         },
     },
-    favoriteColor: [
-        "Black",
-        "White",
-        "Blue",
-        "green"
-    ],
+    favoriteRestaurant: ["cotogagak", "burgerking", "mc donald"],
 };;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
